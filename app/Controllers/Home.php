@@ -13,4 +13,9 @@ class Home extends BaseController
     {
         return view('don');
     }
+
+    public function Dashboard(): string
+    {
+        return view('dashboard');
+    }
 }
